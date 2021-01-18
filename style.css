@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Glacial Indifference Regular";
+  src: url(/src/font/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+  font-family: "Glacial Indifference Bold";
+  src: url(/src/font/GlacialIndifference-Bold.otf);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  background-color: white;
+  box-shadow: 0px 3px 3px rgba(00, 00, 00, 0.16);
+}
+
+header nav {
+  display: flex;
+}
+
+header h1 {
+  display: flex;
+  font-size: 20px;
+  font-family: "Glacial Indifference Bold";
+}
+
+#burger_menu {
+  width: 21px;
+  height: 12px;
+  margin-left: 16px;
+}
+
+#shopping_bag {
+  width: 20px;
+  height: 23px;
+  margin-right: 16px;
+}
+
+
+@media only screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1000px) {}
+
+@media screen and (min-width: 1440px) {}
