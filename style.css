@@ -72,7 +72,7 @@ header h1 {
   transform: translate(-50%, -50%);
 }
 
-#promotions{
+.groupe-sell, .groupe-opinions{
   margin-top: 40px;
 }
 
@@ -108,7 +108,6 @@ header h1 {
 
 #see-more{
   position: absolute;
-  
 }
 
 button{
@@ -123,7 +122,31 @@ button{
   display: flex;
   align-content: center;
   margin: auto;
+  align-items: center;
+  justify-content: center;
+}
 
+.custommers-opinions{
+  width: 300px;
+  height: 135px;
+  display: flex;
+  align-content: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(00, 00, 00, 0.16);
+  margin-top: 40px;
+  margin-bottom: 27px;
+}
+
+footer{
+  height: 175px;
+  background-color:#2486EA ;
+  margin-top: 27px;
+}
+
+.custommers-name{
+  font-family: "Glacial Indifference BOLD";
 }
 
 @media only screen and (min-width: 768px) {
