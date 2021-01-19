@@ -45,6 +45,14 @@ header h1 {
   margin-right: 16px;
 }
 
+#hero_full_img{
+  height: 370px;
+}
+
+#img_hero{
+  height: 370px;
+}
+
 
 @media only screen and (min-width: 768px) {}
 
