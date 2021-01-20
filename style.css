@@ -474,7 +474,8 @@ footer {
   .custommers-opinions-2 {
     width: 500px;
     height: 190px;
-    margin: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
   }
 
   footer {
