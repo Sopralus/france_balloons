@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-body{
+body {
   height: 100%;
 }
 
@@ -49,7 +49,7 @@ header h1 {
   margin-right: 16px;
 }
 
-.hero-image{
+.hero-image {
   background-image: url("/src/img/hero_home.jpg");
 
   height: 370px;
@@ -60,7 +60,7 @@ header h1 {
   position: relative;
 }
 
-.hero-text{
+.hero-text {
   font-family: "Glacial Indifference Regular";
   font-size: 21px;
   width: 100%;
@@ -72,16 +72,17 @@ header h1 {
   transform: translate(-50%, -50%);
 }
 
-.groupe-sell, .groupe-opinions{
+.groupe-sell,
+.groupe-opinions {
   margin-top: 40px;
 }
 
-.groupe-title{
+.groupe-title {
   font-family: "Glacial Indifference Bold";
   text-align: center;
 }
 
-.custommers-opinions{
+.custommers-opinions {
   display: flex;
   flex-direction: column;
 }
@@ -91,14 +92,14 @@ header h1 {
   height: 200px;
   display: flex;
   align-content: center;
-  margin:auto;
+  margin: auto;
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;  
+  -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
-.slider::-webkit-scrollbar{
+.slider::-webkit-scrollbar {
   display: none;
 }
 
@@ -110,24 +111,25 @@ header h1 {
   height: 132.83px;
   background-color: violet;
   margin-right: 18.7px;
-  margin-top:40px;
+  margin-top: 40px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(00, 00, 00, 0.16);
 }
 
-.slide-title{
+.slide-title {
   height: 20px;
   width: 132.83px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   background-color: #fff;
+  display: table;
 }
 
-#see-more{
+#see-more {
   position: absolute;
 }
 
-button{
+button {
   width: 104px;
   height: 40px;
   border-radius: 8px;
@@ -143,7 +145,7 @@ button{
   justify-content: center;
 }
 
-.custommers-opinions{
+.custommers-opinions {
   width: 300px;
   height: 135px;
   display: flex;
@@ -156,9 +158,9 @@ button{
   margin-bottom: 27px;
 }
 
-footer{
+footer {
   height: 175px;
-  background-color:#2486EA ;
+  background-color: #2486EA;
   margin-top: 27px;
   display: flex;
   flex-direction: column;
@@ -168,24 +170,85 @@ footer{
   padding: 20px;
 }
 
-.custommers-name{
+.custommers-name {
   font-family: "Glacial Indifference BOLD";
 }
 
 
-.opinions{
+.opinions {
   font-family: "Glacial Indifference Regular";
   padding: 10px;
 }
 
-.footer-text{
+.footer-text {
   font-family: "Glacial Indifference Regular";
   color: #fff;
 }
 
+#velo_montgolfière {
+  width: 100%;
+  height: 100%;
+}
+
+.velo {
+  background-image: url('/src/img/velo_montgolfière.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.nacelles {
+  background-image: url('/src/img/nacelles_privées.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.noel {
+  background-image: url('/src/img/billet_noël.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.pommard {
+  background-image: url('/src/img/pommard.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.groupes {
+  background-image: url('/src/img/groupes.jfif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.loire {
+  background-image: url('/src/img/loire.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.items-title {
+  font-family: "Glacial Indifference Regular";
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
 
 @media only screen and (min-width: 768px) {
-  .hero-image{
+  .hero-image {
     height: 500px;
   }
 }
