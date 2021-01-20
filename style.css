@@ -30,11 +30,13 @@ body {
 @font-face {
   font-family: "Glacial Indifference Regular";
   src: url(/src/font/GlacialIndifference-Regular.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Glacial Indifference Bold";
   src: url(/src/font/GlacialIndifference-Bold.otf);
+  font-display: swap;
 }
 
 header {
@@ -181,6 +183,7 @@ button {
   margin: auto;
   align-items: center;
   justify-content: center;
+  outline: none;
 }
 
 .custommers-opinions,
@@ -265,7 +268,7 @@ footer {
 }
 
 .groupes {
-  background-image: url('/src/img/groupes.jfif');
+  background-image: url('/src/img/groupes.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
