@@ -54,10 +54,14 @@ header {
 .groupe-opinions a {
   display: flex;
   justify-content: center;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Glacial Indifference Regular";
   color: #EA8824;
 
+}
+
+.groupe-opinions a:hover{
+  color: #0090ff;
 }
 
 
@@ -182,10 +186,10 @@ button {
 .custommers-opinions,
 .custommers-opinions-2 {
   width: 300px;
-  height: 135px;
+  height: 150px;
   display: flex;
   align-content: center;
-  margin: auto;
+  margin: 150px;
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 10px rgba(00, 00, 00, 0.16);
@@ -291,6 +295,7 @@ footer {
 .opinions-block {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -381,7 +386,17 @@ footer {
 
 @media screen and (min-width: 1440px) {
   .slider {
-    width: 900px;
+    width: 1300px;
+    height: 525px;
+  }
+
+  .slide{
+    width: 425px;
+    height: 425px;
+  }
+  
+  .slide-title{
+    width: 425px;
   }
 
   header {
@@ -472,6 +487,19 @@ footer {
   footer p {
     margin-right: 100px;
     margin-left: 100px;
+  }
+
+  button:hover{
+    background-color: #0090ff;
+  }
+
+  #shopping-bag{
+    width: 15px;
+    height: 19px;
+  }
+
+  .groupe-opinions a{
+    font-size: 20px;
   }
 
 }
