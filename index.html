@@ -4,17 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Author: Robin Pinon, France balloons refonte du site ">
     <title>France Baloons</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <a><img src="/src/img/menu.png" id="burger-menu"></a>
-        </nav>
-        <h1>FRANCE BALLOONS</h1>
-        <a><img src="/src/img/shopping-bag.png" id="shopping-bag"></a>
+        <div class="mobile">
+            <nav>
+                <a><img src="/src/img/menu.png" id="burger-menu"></a>
+            </nav>
+            <h1>FRANCE BALLOONS</h1>
+            <a><img src="/src/img/shopping-bag.png" id="shopping-bag"></a>
+        </div>
+        <div class="desktop">
+            <h1>FRANCE BALLOONS</h1>
+            <nav>
+                
+            </nav>
+        </div>
+
     </header>
 
     <main>
@@ -30,9 +40,21 @@
             <div class="groupe-sell">
                 <P class="groupe-title">NOS PROMOTIONS</P>
                 <div class="slider">
-                    <div class="slide velo" id="slide-1"><div class="slide-title" id="slide-title-1"><p class="items-title">Velo et montgolfière</p></div></div>
-                    <div class="slide nacelles" id="slide-2"><div class="slide-title" id="slide-title-2"><p class="items-title">Nacelles privées</p></div></div>
-                    <div class="slide noel" id="slide-3"><div class="slide-title" id="slide-title-3"><p class="items-title">Billet noël -10%</p></div></div>
+                    <div class="slide velo lazy" id="slide-1">
+                        <div class="slide-title" id="slide-title-1">
+                            <p class="items-title">Velo et montgolfière</p>
+                        </div>
+                    </div>
+                    <div class="slide nacelles lazy" id="slide-2">
+                        <div class="slide-title" id="slide-title-2">
+                            <p class="items-title">Nacelles privées</p>
+                        </div>
+                    </div>
+                    <div class="slide noel lazy" id="slide-3">
+                        <div class="slide-title" id="slide-title-3">
+                            <p class="items-title">Billet noël -10%</p>
+                        </div>
+                    </div>
                 </div>
                 <button class="see-more">VOIR PLUS</button>
             </div>
@@ -40,9 +62,21 @@
             <div class="groupe-sell">
                 <P class="groupe-title">LES PLUS APPRÉCIÉS</P>
                 <div class="slider">
-                    <div class="slide pommard" id="slide-1"><div class="slide-title" id="slide-title-1"><p class="items-title">Billet noël -10%</p></div></div>
-                    <div class="slide groupes" id="slide-2"><div class="slide-title" id="slide-title-2"><p class="items-title">Sur mesure & groupes</p></div></div>
-                    <div class="slide loire" id="slide-3"><div class="slide-title" id="slide-title-3"><p class="items-title">Châteaux de la Loire</p></div></div>
+                    <div class="slide pommard lazy" id="slide-1">
+                        <div class="slide-title" id="slide-title-1">
+                            <p class="items-title">Billet noël -10%</p>
+                        </div>
+                    </div>
+                    <div class="slide groupes lazy" id="slide-2">
+                        <div class="slide-title" id="slide-title-2">
+                            <p class="items-title">Sur mesure & groupes</p>
+                        </div>
+                    </div>
+                    <div class="slide loire lazy" id="slide-3">
+                        <div class="slide-title" id="slide-title-3">
+                            <p class="items-title">Châteaux de la Loire</p>
+                        </div>
+                    </div>
                 </div>
                 <button class="see-more">VOIR PLUS</button>
             </div>
@@ -51,12 +85,12 @@
                 <p class="groupe-title">AVIS CLIENTS</p>
                 <div class="custommers-opinions">
                     <p class="custommers-name">
-                        Thomas G. 4/5 <img></img>
+                        Thomas G. 4/5
                     </p>
                     <p class="opinions">Magnifique voyage avec France Balloons.
                         Beaucoup d'explication en ce qui concerne le
-                        fonctionnement de la montgolfière. 
-                        Très rassurant. 
+                        fonctionnement de la montgolfière.
+                        Très rassurant.
                         Je recommande fortement France ballons.</p>
                 </div>
                 <button class="see-more">VOIR PLUS</button>
@@ -70,6 +104,7 @@
         <p class="footer-text">Qui sommes nous ?</p>
         <p class="footer-text">Conditions générales de vente</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
