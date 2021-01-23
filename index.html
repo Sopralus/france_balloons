@@ -7,19 +7,18 @@
     <meta name="Description" content="Author: Robin Pinon, France balloons refonte du site ">
     <title>France Baloons</title>
     <link rel="stylesheet" href="style.css" as="style" async>
-    <link rel="preload" href="/src/font/GlacialIndifference-Bold.otf" as="font" type="font/ttf" crossorigin="anonymous">
-    <link rel="preload" href="/src/font/GlacialIndifference-Regular.otf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/src/font/GlacialIndifference-Bold.otf" as="font" type="font/ttf" crossorigin="anonymous" async>
+    <link rel="preload" href="/src/font/GlacialIndifference-Regular.otf" as="font" type="font/ttf" crossorigin="anonymous" async>
 </head>
 
 <body>
     <header id="masthead">
         <div class="mobile">
             <nav>
-                <a href="#"><img src="/src/img/menu.png" width="21px"
-                    height= "21px" id="burger-menu" alt="panier"></a>
+                <a href="#"><img src="/src/img/menu.png" width="21px" height="21px" id="burger-menu" alt="panier"></a>
             </nav>
             <h1>FRANCE BALLOONS</h1>
-            <a href="#"><img src="/src/img/shopping-bag.png" id="shopping-bag" alt="panier" width="20px" height="23px"></a>
+            <a href="#"><img src="/src/img/shopping-bag.webp" id="shopping-bag" alt="panier" width="20px" height="23px"></a>
         </div>
         <div class="desktop">
             <h1>FRANCE BALLOONS</h1>
@@ -38,10 +37,12 @@
                         <a href="index.html">FAQ</a>
                     </li>
                     <li>
-                        <a href="index.html" style="color: #0090ff;">PANIER   <img src="/src/img/shopping-bag.png" id="shopping-bag" alt="panier" width="15px" height="19px"></a>
+                        <a href="index.html" style="color: #0090ff;">PANIER <img src="/src/img/shopping-bag.webp"
+                                id="shopping-bag" alt="panier" width="15px" height="19px"></a>
                     </li>
                     <li>
-                        <a href="index.html">03-80-97-38-61</a>
+                        <a href="index.html">03-80-97-38-61 <img src="/src/img/phone.webp" width="15px" height="15px"
+                                alt="telephone" id="phone"></a>
                     </li>
                 </ul>
             </nav>
@@ -63,43 +64,60 @@
             <div class="groupe-sell">
                 <P class="groupe-title">NOS PROMOTIONS</P>
                 <div class="slider">
-                    <div class="slide velo lazy" id="slide-1">
-                        <div class="slide-title" id="slide-title-1">
-                            <p class="items-title">Velo et montgolfière</p>
+                    <a href="/produits/velo_montgolfiere.html" class="slide">
+                        <div class="slide velo lazy" id="slide-1">
+                            <div class="slide-title" id="slide-title-1">
+                                <p class="items-title">Velo et montgolfière</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="slide nacelles lazy" id="slide-2">
-                        <div class="slide-title" id="slide-title-2">
-                            <p class="items-title">Nacelles privées</p>
+                    </a>
+
+                    <a href="#" class="slide">
+                        <div class="slide nacelles lazy" id="slide-2">
+                            <div class="slide-title" id="slide-title-2">
+                                <p class="items-title">Nacelles privées</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="slide noel lazy" id="slide-3">
-                        <div class="slide-title" id="slide-title-3">
-                            <p class="items-title">Billet noël -10%</p>
+                    </a>
+
+                    <a href="#" class="slide">
+                        <div class="slide noel lazy" id="slide-3">
+                            <div class="slide-title" id="slide-title-3">
+                                <p class="items-title">Billet noël -10%</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <button class="see-more">VOIR PLUS</button>
             </div>
 
             <div class="groupe-sell">
                 <P class="groupe-title">LES PLUS APPRÉCIÉS</P>
+
                 <div class="slider">
-                    <div class="slide pommard lazy" id="slide-1">
-                        <div class="slide-title" id="slide-title-1">
-                            <p class="items-title">Châteaux de pommard</p>
+                    <a href="#" class="slide">
+                        <div class="slide pommard lazy" id="slide-1">
+                            <div class="slide-title" id="slide-title-1">
+                                <p class="items-title">Châteaux de pommard</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="slide groupes lazy" id="slide-2">
-                        <div class="slide-title" id="slide-title-2">
-                            <p class="items-title">Sur mesure & groupes</p>
+                    </a>
+
+                    <a href="#" class="slide">
+                        <div class="slide groupes lazy" id="slide-2">
+                            <div class="slide-title" id="slide-title-2">
+                                <p class="items-title">Sur mesure & groupes</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="slide loire lazy" id="slide-3">
-                        <div class="slide-title" id="slide-title-3">
-                            <p class="items-title">Châteaux de la Loire</p>
+                    </a>
+
+                    <a href="#" class="slide">
+                        <div class="slide loire lazy" id="slide-3">
+                            <div class="slide-title" id="slide-title-3">
+                                <p class="items-title">Châteaux de la Loire</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <button class="see-more">VOIR PLUS</button>
             </div>
@@ -122,13 +140,13 @@
                             Stephanie H. 5/5
                         </p>
                         <p class="opinions">Super expérience avec France Balloons.
-                            Amateurs de sensations fortes foncez ! 
-                            
+                            Amateurs de sensations fortes foncez !
+
                             Merci pour ce voyage éblouissant ! </p>
                     </div>
-                    
+
                 </div>
-                
+
                 <a href="#">Voir les autres avis (102 avis)</a>
             </div>
         </section>
